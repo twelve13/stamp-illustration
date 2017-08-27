@@ -64,6 +64,56 @@
 	z-index: -1;
 }
 
+.tree-l div {
+	border-left: solid transparent 10px;
+	border-right: solid transparent 10px;
+	border-bottom: solid rgb(46, 31, 9) 40px;
+	top: 210px;
+}
+
+.tree-l :nth-child(1n) {
+	left: 80px;
+}
+
+.tree-l :nth-child(2n) {
+	left: 150px;
+}
+
+.tree-l :nth-child(3n) {
+	left: 190px;
+}
+
+.tree-l :nth-child(4n) {
+	left: 250px;
+}
+
+.tree-l :nth-child(5n) {
+	left: 280px;
+}
+
+.tree-l :nth-child(6n) {
+	left: 330px;
+}
+
+.tree-s div {
+	border-left: solid transparent 7px;
+	border-right: solid transparent 7px;
+	border-bottom: solid rgb(46, 31, 9) 30px;
+	top: 220px;
+}
+
+.tree-s :nth-child(1n) {
+	left: 70px;
+}
+
+.tree-s :nth-child(2n) {
+	left: 130px;
+}
+
+.tree-s :nth-child(3n) {
+	left: 180px;
+}
+
 #lower {
 	background-color: rgb(156, 151, 51);
 	height: 105px;
