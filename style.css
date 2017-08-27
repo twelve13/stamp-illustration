@@ -201,6 +201,53 @@
 #lower {
 	background-color: rgb(156, 151, 51);
 	height: 105px;
+	overflow: hidden;
 	top: 247px;
 	width: 350px;
 }
+
+#river-a {
+	background-color: rgb(131, 191, 188);
+	border-radius: 150px;
+	height: 40px;
+	left: 130px;
+	top: 80px;
+	width: 160px;
+}
+
+#river-b {
+	background-color: rgb(131, 191, 188);
+	border-radius: 150px;
+	height: 35px;
+	left: 150px;
+	top: 55px;
+	width: 160px;
+}
+
+#river-c {
+	background-color: rgb(131, 191, 188);
+	border-radius: 150px;
+	height: 35px;
+	left: 125px;
+	top: 30px;
+	width: 160px;
+}
+
+#river-d {
+	background-color: rgb(131, 191, 188);
+	border-radius: 150px;
+	height: 35px;
+	left: 175px;
+	top: 10px;
+	width: 160px;
+}
+
+#river-e {
+	background-color: rgb(131, 191, 188);
+	border-radius: 150px;
+	height: 15px;
+	left: 255px;
+	width: 60px;
+}
+
+
