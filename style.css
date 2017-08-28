@@ -316,4 +316,76 @@
 	width: 20px;
 }
 
+#cliff-a {
+	background-color: rgb(64, 49, 5);
+	height: 180px;
+	left: 30px;
+	top: 172px;
+	transform: skew(-15deg);
+	width: 60px;
+}
 
+#cliff-b {
+	background-color: rgb(64, 49, 5);
+	height: 180px;
+	top: 172px;
+	width: 60px;	
+}
+
+#car-top {
+	background-color: rgb(64, 49, 5);
+	height: 10px;
+	left: 30px;
+	top: 148px;
+	transform: skew(-2deg);
+	width: 25px;
+}
+
+#car-bottom {
+	background-color: rgb(64, 49, 5);
+	height: 12px;
+	left: 25px;
+	top: 156px;
+	transform: skew(-12deg);
+	width: 37px;
+}
+
+#car-window-l {
+	background-color: white;
+	height: 4px;
+	left: 34px;
+	top: 150px;
+	width: 7px;
+}
+
+#car-window-r {
+	background-color: white;
+	height: 4px;
+	left: 44px;
+	top: 150px;
+	width: 7px;
+}
+
+#car-tire-l {
+	background-color: black;
+	border-radius: 100%;
+	height: 10px;
+	left: 30px;
+	top: 162px;
+	width: 10px;
+}
+
+#car-tire-r {
+	background-color: black;
+	border-radius: 100%;
+	height: 10px;
+	left: 45px;
+	top: 162px;
+	width: 10px;
+}
+
+main {
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
