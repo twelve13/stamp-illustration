@@ -237,7 +237,7 @@
 	background-color: rgb(131, 191, 188);
 	border-radius: 150px;
 	height: 35px;
-	left: 175px;
+	left: 170px;
 	top: 10px;
 	width: 160px;
 }
@@ -248,6 +248,46 @@
 	height: 15px;
 	left: 255px;
 	width: 60px;
+}
+
+#mount-reflection {
+	border-left: solid transparent 55px;
+	border-right: solid transparent 55px;
+	border-top: solid rgba(255, 255, 255, 0.16) 120px;
+	left: 178px;
+	top: 12px;
+}
+
+#tree-reflection-1 {
+	border-left: solid transparent 5px;
+	border-right: solid transparent 5px;
+	border-top: solid rgba(0, 0, 0, 0.16) 20px;
+	left: 182px;
+	top: 10px;
+}
+
+#tree-reflection-2 {
+	border-left: solid transparent 8px;
+	border-right: solid transparent 8px;
+	border-top: solid rgba(0, 0, 0, 0.16) 30px;
+	left: 192px;
+	top: 10px;
+}
+
+#tree-reflection-3 {
+	border-left: solid transparent 8px;
+	border-right: solid transparent 8px;
+	border-top: solid rgba(0, 0, 0, 0.16) 30px;
+	left: 252px;
+	top: 10px;
+}
+
+#tree-reflection-4 {
+	border-left: solid transparent 8px;
+	border-right: solid transparent 8px;
+	border-top: solid rgba(0, 0, 0, 0.16) 30px;
+	left: 282px;
+	top: 10px;
 }
 
 
