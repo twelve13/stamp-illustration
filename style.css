@@ -290,4 +290,30 @@
 	top: 10px;
 }
 
+#boat-sail {
+	border-left: solid transparent 5px;
+	border-right: solid transparent 5px;
+	border-bottom: solid black 20px;
+	left: 230px;
+	top: 30px;
+}
+
+#boat-bottom {
+	background-color: black;
+	height: 5px;
+	left: 230px;
+	top: 52px;
+	width: 10px;
+	z-index: 2;
+}
+
+#boat-foam {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 20px;
+	height: 8px;
+	left: 225px;
+	top: 55px;
+	width: 20px;
+}
+
 
