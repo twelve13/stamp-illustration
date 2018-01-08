@@ -1,14 +1,12 @@
-const abs = $("div");
+const divs = document.getElementsByTagName("DIV");
 
-const button = $("button");
+const button = document.getElementById("button");
 
-function position(){
-	abs.each(function(i){
-		var abso = $(this);
-		setTimeout(function(){
-			abso.addClass("abso");
-		}, i*300);
-	})
+function show() {
+	console.log("clicked")
+	for(let i=0; i<divs.length; i++){
+		setTimeout(function(){divs[i].classList.add("showme")}, i*200);
+	}
 }
 
-button.click(position)
+button.addEventListener("click", show)

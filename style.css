@@ -1,4 +1,10 @@
-.abso {
+.showme {
+	transition: 500ms ease;
+	opacity: 1;
+}
+
+main * {
+	opacity: 0;
 	position: absolute;
 }
 
@@ -9,7 +15,9 @@ button {
 #upper {
 	background-color: rgb(213, 103, 44);
 	height: 247px;
+	left: 85px;
 	overflow: hidden;
+	top: 85px;
 	width: 350px;
 	z-index: -2;
 }
@@ -204,9 +212,10 @@ button {
 #lower {
 	background-color: rgb(156, 151, 51);
 	height: 105px;
+	left: 85px;
 	overflow: hidden;
 	position: absolute;
-	top: 247px;
+	top: 332px;
 	width: 350px;
 }
 
@@ -323,8 +332,8 @@ button {
 #cliff-a {
 	background-color: rgb(64, 49, 5);
 	height: 180px;
-	left: 30px;
-	top: 172px;
+	left: 115px;
+	top: 257px;
 	transform: skew(-15deg);
 	width: 60px;
 }
@@ -332,15 +341,16 @@ button {
 #cliff-b {
 	background-color: rgb(64, 49, 5);
 	height: 180px;
-	top: 172px;
+	left: 85px;
+	top: 257px;
 	width: 60px;	
 }
 
 #car-top {
 	background-color: rgb(64, 49, 5);
 	height: 10px;
-	left: 30px;
-	top: 148px;
+	left: 115px;
+	top: 233px;
 	transform: skew(-2deg);
 	width: 25px;
 }
@@ -348,8 +358,8 @@ button {
 #car-bottom {
 	background-color: rgb(64, 49, 5);
 	height: 12px;
-	left: 25px;
-	top: 156px;
+	left: 110px;
+	top: 241px;
 	transform: skew(-12deg);
 	width: 37px;
 }
@@ -357,16 +367,16 @@ button {
 #car-window-l {
 	background-color: white;
 	height: 4px;
-	left: 34px;
-	top: 150px;
+	left: 119px;
+	top: 235px;
 	width: 7px;
 }
 
 #car-window-r {
 	background-color: white;
 	height: 4px;
-	left: 44px;
-	top: 150px;
+	left: 129px;
+	top: 235px;
 	width: 7px;
 }
 
@@ -374,8 +384,8 @@ button {
 	background-color: black;
 	border-radius: 100%;
 	height: 10px;
-	left: 30px;
-	top: 162px;
+	left: 115px;
+	top: 247px;
 	width: 10px;
 }
 
@@ -383,8 +393,8 @@ button {
 	background-color: black;
 	border-radius: 100%;
 	height: 10px;
-	left: 45px;
-	top: 162px;
+	left: 130px;
+	top: 247px;
 	width: 10px;
 }
 
