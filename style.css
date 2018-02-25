@@ -8,19 +8,6 @@ main * {
 	position: absolute;
 }
 
-#button {
-	background-color: rgb(213, 103, 44);
-	border-radius: 50px;
-	color: rgb(249, 245, 218);
-	font-size: 24px;
-	left: 250px;
-	padding: 10px;
-	position: relative;
-	text-align: center;
-	top: 50px;
-	width: 150px;
-}
-
 #upper {
 	background-color: rgb(213, 103, 44);
 	height: 247px;
